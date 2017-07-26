@@ -1,0 +1,45 @@
+body{
+	font-size:12px;
+	margin: 0 auto;
+	width: 780px;
+	border:solid 1px #000;
+}
+
+
+/*定义几个网站常用的字体样式*/
+.font_style1{
+	font-weight: bold;
+}
+
+
+.font_style2{
+	font-weight: bold;
+	color: #CC0000;
+}
+
+.font_style3{
+	color: #FF6600;
+	font-size: 8px;
+}
+.font_style4{
+	color: #D5A7EF;
+}
+.font_style5{
+	font-weight:bold;
+	color: #3366DE;
+}
+.font_style6{
+	color: #FF6600;
+	font-weight: bold;
+}
+
+/*对超链接的样式进行整理*/
+a:link{
+	text-decoration: none;
+}
+
+/*下划线的样式*/
+.underline_style1{
+	height: 2px;
+	background-color: #CC0000;
+}

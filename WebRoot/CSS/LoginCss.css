@@ -1,0 +1,41 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-size:12px;
+	margin: 0 auto;
+	width: 780px;
+	border:solid 1px #000;
+}
+
+/*上面部分*/
+.top{
+	width: 780px;
+	height:150px;
+	background-color: blue;
+}
+/*中间部分*/
+.cen{
+	width: 780px;
+	height:280px;
+	
+	background-image: url("../images/login_img.png");
+}
+/*表单样式*/
+.cen table{
+	color: blue;
+	position: relative;
+	left: 470px;
+	top: 100px;
+	text-align: center;
+	line-height: 30px;
+}
+
+/*底部部分*/
+.bottom{
+	width: 780px;
+	height:220px;
+	background-color: red;
+}
+

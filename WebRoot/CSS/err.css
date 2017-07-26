@@ -1,0 +1,10 @@
+.err{
+	width: 419;
+	height: 226;
+	text-align:center;
+	background-image:url("../images/error.jpg");
+	margin: 170 470;
+
+	line-height:150px;
+	font-size: 14px;
+}
