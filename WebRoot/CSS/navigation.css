@@ -1,0 +1,46 @@
+*{
+	font-size: 13px;
+}
+.nav{
+	width: 778px;
+	height: 28px;
+	background-color: green;
+	
+}
+
+.nav table{
+	background-color: green;
+	
+	float: right;
+	
+}
+
+.nav a{
+	color: white;
+	text-decoration: none;
+}
+
+.sdiv{
+	line-height:20px;
+	width: 80px;
+	background-color:blue;
+	text-align: center;
+	border:solid 1px red;
+	position: relative;
+	left: 347px;
+	top:28px;
+	display: none;
+}
+.sdiv ul{
+	margin:0px;
+	padding:0px;
+}
+
+.sdiv a{
+	color: blue;
+}
+
+.sdiv li{
+	background-image:url("../images/navigation_bg.gif");
+	list-style: none;
+}

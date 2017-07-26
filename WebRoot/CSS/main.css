@@ -1,0 +1,22 @@
+body{
+	font-size:12px;
+	margin: 0 auto;
+	width: 778px;
+	border:solid 1px #000;
+}
+/*上面部分*/
+.top{
+	width: 778px;
+	height:118px;
+	
+	background-image: url("../images/top_bg.gif");
+}
+/*上面部分字体*/
+.top span{
+	display: block;
+	float: right;
+	margin-top: 100px;
+	margin-right: 10px;
+	color: #FF6600;
+	font-weight: bold;
+}

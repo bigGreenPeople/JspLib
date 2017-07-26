@@ -24,15 +24,11 @@ response.setDateHeader("Expires", -10);
 
 	<link rel="stylesheet" type="text/css" href="CSS/LoginCss.css">
 	<link rel="stylesheet" type="text/css" href="CSS/comm.css">
-	<script type="text/javascript" src="/js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
   </head>
   
   <body>
-  <script type="text/javascript">
-  	$(":submit").click(function(){
-  		alert("sds");
-  	});
-  </script>
+  
   <!-- 上面部分 -->
     <div class="top">
     	
@@ -40,11 +36,20 @@ response.setDateHeader("Expires", -10);
     <!-- 中间 -->
     <div class="cen"  >
     	<!-- 登入表单 -->
-    	<form action="">
+    	<form action="${pageContext.request.contextPath}/err.jsp">
 	    	<table>
-	    		<tr><td>管理员名称:</td><td><input name="username" type="text" /></td></tr>
-	    		<tr><td>管理员密码:</td><td><input name="password" type="password" /></td></tr>
-	    		<tr><td></td><td><input type="submit" value="登录"/> &nbsp; &nbsp;<input type="reset" value="重置"/></td></tr>
+	    		<tr>
+		    		<td>管理员名称:</td>
+		    		<td><input name="username" type="text" /></td>
+	    		</tr>
+	    		<tr>
+		    		<td>管理员密码:</td>
+		    		<td><input name="password" type="password" /></td>
+	    		</tr>
+	    		<tr>
+		    		<td></td>
+		    		<td><input type="submit" value="登录"/> &nbsp; &nbsp;<input type="reset" value="重置"/></td>
+	    		</tr>
 	    	</table>
     	</form>
     	
@@ -62,5 +67,19 @@ response.setDateHeader("Expires", -10);
 			</tr>
 		</table>
 	</div>
+	 <script type="text/javascript">
+  	$(":submit").click(function(){
+  		var name = $(":text").val();
+		var pass = $(":password").val();
+		
+		if(name=="" || pass==""){
+			alert("你的账号或密码为空!");
+			return false;
+		}
+		
+		
+	});
+  </script>
   </body>
+  
 </html>
