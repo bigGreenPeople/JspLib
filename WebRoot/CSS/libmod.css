@@ -1,0 +1,17 @@
+.libmob{
+	width: 778px;
+	height: 550px;
+	margin-top:10px;
+	text-align: center;
+	border: 1px solid green;
+}
+
+.libmob table{
+	
+	font-size:14px;
+	line-height: 30px;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+	left: 150px;
+}

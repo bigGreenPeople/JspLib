@@ -2,7 +2,7 @@ body{
 	font-size:12px;
 	margin: 0 auto;
 	width: 778px;
-	border:solid 1px #000;
+	
 }
 /*上面部分*/
 .top{
@@ -19,4 +19,51 @@ body{
 	margin-right: 10px;
 	color: #FF6600;
 	font-weight: bold;
+}
+
+/*书籍显示*/
+.bookinfo{
+	border: 1px solid green;
+	margin-top: 6px;
+	
+	width: 778px;
+	height: 550px;
+}
+
+/*数据显示*/
+.bookinfo span{
+	color: green;
+	float: right;
+	
+	display:block;
+	
+}
+
+.bookinfo table{
+	border: 1px solid green;
+	margin:5px auto;
+	width:700px;
+	font-size: 13px;
+	text-align:center;
+	line-height: 30px;
+}
+
+/*more*/
+.more{
+	display:block;
+	float: right;
+	position: relative;
+	left: -20px;
+}
+
+/*底部*/
+.bottm{
+	width: 778px;
+	height: 50px;
+	text-align: center;
+}
+
+/*底部信息*/
+.bottm span{
+	font-size: 12px;	
 }

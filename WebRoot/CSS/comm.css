@@ -2,13 +2,15 @@ body{
 	font-size:12px;
 	margin: 0 auto;
 	width: 780px;
-	border:solid 1px #000;
+	
 }
 
 
 /*定义几个网站常用的字体样式*/
 .font_style1{
-	font-weight: bold;
+	color: green;
+	float: right;
+	display:block;
 }
 
 

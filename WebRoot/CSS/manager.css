@@ -1,0 +1,18 @@
+.manages{
+	width: 778px;
+	height: 550px;
+	margin-top:10px;
+	text-align: center;
+	border: 1px solid green;
+}
+
+.manages table{
+	width:700px;
+	
+	font-size:13px;
+	line-height: 30px;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+	left: 20px;
+}
