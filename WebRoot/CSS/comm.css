@@ -5,7 +5,24 @@ body{
 	
 }
 
+.cendiv{
+	width: 778px;
+	height: 550px;
+	margin-top:10px;
+	text-align: center;
+	border: 1px solid green;
+}
 
+.cendiv table{
+	width:700px;
+	
+	font-size:13px;
+	line-height: 30px;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+	left: 20px;
+}
 /*定义几个网站常用的字体样式*/
 .font_style1{
 	color: green;
