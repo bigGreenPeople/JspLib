@@ -1,0 +1,44 @@
+.bookret{
+	width: 763px;
+	height: 200px;
+	
+	margin: 0px auto;
+	margin-top: 25px;
+}
+
+.nr{
+	width: 737px;
+	height: 110px;
+	
+	margin: 0px auto;
+	margin-top: 3px;
+}
+
+
+
+.yanz{
+	text-align: left;
+	width: 737px;
+	height: 20px;
+	
+	padding-top: 6px;
+	margin-left: 6px;
+}
+/* ps c flash pro AE html+css javascript …„”∞ */
+.yanz span{
+	position: relative;
+	top: -5px;
+	left: 20px;
+}
+.yanz table{
+	position: relative;
+	top: -10px;
+	left: -20px;
+	
+}
+
+/*ΩË‘ƒ±Ì∏Ò*/
+#jieyue{
+	
+	margin-top: 10px;
+}
